@@ -43,6 +43,6 @@ function showMantra(choice) {
   if(choice === 'mantra') {
     mantraSection.innerHTML =`<p>${mantra[Math.floor(Math.random() * mantra.length-1)]}<p>`;
   } else if(choice === 'affirmation') {
-    mantraSection.innerHTML =`<p>${affirmation[Math.floor(Math.random() * mantra.length-1)]}<p>`;
+    mantraSection.innerHTML =`<p>${affirmation[Math.floor(Math.random() * affirmation.length-1)]}<p>`;
   }
 }
